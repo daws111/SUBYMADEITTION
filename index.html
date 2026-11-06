@@ -1,0 +1,2178 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>济宁市兖州区实验高级中学附属学校 · 明德尚实 笃行致远</title>
+<meta name="description" content="济宁市兖州区实验高级中学附属学校：九年一贯制公立学校。学校概况、发展沿革、办学特色、荣誉记录与校园设施。本页非学校官方网站。">
+<meta name="theme-color" content="#F4F1EA">
+<meta name="color-scheme" content="light">
+<link rel="icon" href="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23191713'/%3E%3Ctext x='32' y='45' font-family='serif' font-size='38' fill='%23F4F1EA' text-anchor='middle'%3E%E5%AE%9E%3C/text%3E%3C/svg%3E">
+<script>document.documentElement.classList.add('js');</script>
+<style>
+/* ---------------------------------------------------------
+   字体与色彩
+   Display: Noto Serif SC（思源宋体）；正文: Noto Sans SC
+   --------------------------------------------------------- */
+:root {
+  --paper: #F4F1EA;
+  --paper-2: #EDE9DF;
+  --paper-3: #FAF8F2;
+  --ink: #191713;
+  --ink-2: #423D34;
+  --muted: #7C7568;
+  --faint: #9A9284;
+  --line: rgba(25, 23, 19, 0.13);
+  --line-2: rgba(25, 23, 19, 0.26);
+  --accent: #9C3B24;
+  --serif: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "SimSun", Georgia, serif;
+  --sans: "Noto Sans SC", "PingFang SC", "Microsoft YaHei UI", "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
+  --latin: Georgia, "Times New Roman", "Songti SC", serif;
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --wrap: 1180px;
+  --pad: clamp(20px, 5.2vw, 64px);
+}
+
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 92px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.75;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+::selection { background: var(--accent); color: var(--paper); }
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: var(--paper); }
+::-webkit-scrollbar-thumb { background: rgba(25, 23, 19, 0.18); border: 3px solid var(--paper); border-radius: 6px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(25, 23, 19, 0.32); }
+
+[hidden] { display: none !important; }
+img { display: block; max-width: 100%; }
+a { color: inherit; text-decoration: none; }
+p { margin: 0; text-wrap: pretty; }
+button { font: inherit; color: inherit; }
+strong { font-weight: 600; }
+
+h1, h2, h3 {
+  margin: 0;
+  font-family: var(--serif);
+  font-weight: 400;
+  line-height: 1.35;
+  letter-spacing: 0.02em;
+  text-wrap: balance;
+}
+
+:focus-visible {
+  outline: 1px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.wrap {
+  width: 100%;
+  max-width: var(--wrap);
+  margin: 0 auto;
+  padding: 0 var(--pad);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip {
+  position: absolute;
+  top: 10px; left: -999px;
+  z-index: 300;
+  padding: 10px 18px;
+  background: var(--ink);
+  color: var(--paper);
+  font-size: 12px;
+  letter-spacing: 0.12em;
+}
+.skip:focus { left: 16px; }
+
+/* ---------------------------------------------------------
+   页眉
+   --------------------------------------------------------- */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--paper);
+  border-bottom: 1px solid var(--line);
+  transition: box-shadow 0.4s var(--ease);
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  height: 84px;
+  transition: height 0.4s var(--ease);
+}
+
+.header.is-scrolled { box-shadow: 0 14px 34px -30px rgba(0, 0, 0, 0.65); }
+.header.is-scrolled .header__inner { height: 64px; }
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-width: 0;
+  flex: none;
+}
+
+/* 校徽：从 logo.jpg 中裁出圆形徽标，白底以正片叠底融入纸色 */
+.crest {
+  position: relative;
+  display: block;
+  width: 38px;
+  height: 38px;
+  flex: none;
+  overflow: hidden;
+}
+.crest img {
+  position: absolute;
+  width: 293.3%;
+  max-width: none;
+  height: auto;
+  left: -96.9%;
+  top: -8.85%;
+  mix-blend-mode: multiply;
+}
+
+.brand__text {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  line-height: 1.2;
+}
+.brand__name {
+  font-family: var(--serif);
+  font-size: 15px;
+  letter-spacing: 0.1em;
+  color: var(--ink);
+  white-space: nowrap;
+}
+.brand__sub {
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: clamp(20px, 2.6vw, 34px);
+  margin-left: auto;
+}
+.nav a {
+  position: relative;
+  padding: 6px 0;
+  font-size: 12.5px;
+  letter-spacing: 0.16em;
+  color: var(--ink-2);
+  transition: color 0.3s var(--ease);
+}
+.nav a::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  height: 1px;
+  background: var(--ink);
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 0.45s var(--ease);
+}
+.nav a:hover { color: var(--ink); }
+.nav a:hover::after,
+.nav a[aria-current="page"]::after { transform: scaleX(1); }
+
+.header__actions { display: flex; align-items: center; gap: 18px; flex: none; }
+
+.btn-entry {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border: 1px solid var(--ink);
+  background: transparent;
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  cursor: pointer;
+  transition: background 0.35s var(--ease), color 0.35s var(--ease);
+}
+.btn-entry:hover { background: var(--ink); color: var(--paper); }
+
+.user { display: flex; align-items: center; gap: 14px; }
+.user__name { font-size: 13px; letter-spacing: 0.05em; }
+.user__sep { width: 1px; height: 14px; background: var(--line-2); }
+.user__out {
+  padding: 0 0 2px;
+  border: 0;
+  border-bottom: 1px solid var(--line-2);
+  background: none;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  cursor: pointer;
+  transition: color 0.3s, border-color 0.3s;
+}
+.user__out:hover { color: var(--accent); border-color: var(--accent); }
+
+.menu-btn {
+  display: none;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 0;
+  border: 0;
+  background: none;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  cursor: pointer;
+}
+.menu-btn__icon { position: relative; display: block; width: 16px; height: 10px; }
+.menu-btn__icon i {
+  position: absolute;
+  left: 0;
+  width: 16px;
+  height: 1px;
+  background: currentColor;
+  transition: transform 0.35s var(--ease);
+}
+.menu-btn__icon i:first-child { top: 2px; }
+.menu-btn__icon i:last-child { top: 7px; }
+.menu-btn[aria-expanded="true"] .menu-btn__icon i:first-child { transform: translateY(2.5px) rotate(45deg); }
+.menu-btn[aria-expanded="true"] .menu-btn__icon i:last-child { transform: translateY(-2.5px) rotate(-45deg); }
+
+/* 移动端目录 */
+.mobile {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  display: none;
+  padding: 104px var(--pad) 48px;
+  background: var(--paper);
+  overflow-y: auto;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.4s var(--ease), visibility 0.4s;
+}
+.mobile.is-open { opacity: 1; visibility: visible; }
+.mobile__nav { display: flex; flex-direction: column; }
+.mobile__nav a {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 17px 0;
+  border-bottom: 1px solid var(--line);
+  font-family: var(--serif);
+  font-size: 1.3rem;
+  letter-spacing: 0.08em;
+}
+.mobile__num {
+  font-family: var(--latin);
+  font-size: 10.5px;
+  letter-spacing: 0.1em;
+  color: var(--faint);
+}
+.mobile__foot {
+  margin-top: 34px;
+  font-family: var(--serif);
+  font-size: 11.5px;
+  letter-spacing: 0.34em;
+  color: var(--faint);
+}
+html.is-locked { overflow: hidden; }
+
+/* ---------------------------------------------------------
+   首屏
+   --------------------------------------------------------- */
+.hero { padding-top: clamp(52px, 7vw, 96px); }
+
+.hero__inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 116px;
+  gap: 40px;
+  align-items: end;
+}
+
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 10.5px;
+  letter-spacing: 0.22em;
+  line-height: 1.4;
+  color: var(--muted);
+}
+.eyebrow::before {
+  content: "";
+  width: 26px;
+  height: 1px;
+  flex: none;
+  background: var(--accent);
+}
+.eyebrow__num {
+  font-family: var(--latin);
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  color: var(--accent);
+}
+
+.hero__title {
+  margin-top: 26px;
+  font-size: clamp(2.7rem, 7.4vw, 5.9rem);
+  line-height: 1.14;
+  letter-spacing: 0.06em;
+  font-weight: 400;
+}
+.hero__title span { display: block; }
+
+.hero__motto {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 34px;
+}
+.hero__motto .label {
+  padding: 3px 7px 4px;
+  border: 1px solid var(--line-2);
+  font-size: 9.5px;
+  letter-spacing: 0.18em;
+  line-height: 1;
+  color: var(--muted);
+}
+.hero__motto .text {
+  font-family: var(--serif);
+  font-size: clamp(0.95rem, 1.4vw, 1.1rem);
+  letter-spacing: 0.34em;
+  color: var(--ink-2);
+}
+
+.hero__lead {
+  max-width: 30em;
+  margin-top: 26px;
+  font-size: 14.5px;
+  line-height: 2.05;
+  color: var(--ink-2);
+  text-wrap: pretty;
+}
+
+.hero__actions {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  margin-top: 38px;
+}
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 13px 26px;
+  border: 1px solid var(--ink);
+  background: var(--ink);
+  color: var(--paper);
+  font-size: 12.5px;
+  letter-spacing: 0.16em;
+  transition: background 0.35s var(--ease), color 0.35s var(--ease);
+}
+.btn-primary span { font-family: var(--sans); transition: transform 0.35s var(--ease); }
+.btn-primary:hover { background: transparent; color: var(--ink); }
+.btn-primary:hover span { transform: translateX(4px); }
+
+.link-quiet {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12.5px;
+  letter-spacing: 0.12em;
+  color: var(--ink-2);
+  border-bottom: 1px solid var(--line-2);
+  padding-bottom: 3px;
+  transition: color 0.3s, border-color 0.3s;
+}
+.link-quiet:hover { color: var(--accent); border-color: var(--accent); }
+
+.hero__aside {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 100%;
+  padding-bottom: 4px;
+}
+.hero__aside p {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  margin: 0;
+  padding-right: 14px;
+  border-right: 1px solid var(--line);
+  font-family: var(--serif);
+  font-size: 11.5px;
+  letter-spacing: 0.42em;
+  color: var(--muted);
+}
+
+/* 首屏数据 */
+.figures {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  margin: clamp(48px, 7vw, 88px) 0 0;
+  border-top: 1px solid var(--ink);
+}
+.figures__item {
+  padding: 20px 22px 6px 0;
+  border-right: 1px solid var(--line);
+}
+.figures__item:last-child { border-right: 0; }
+.figures dt {
+  margin-bottom: 14px;
+  font-size: 10px;
+  letter-spacing: 0.22em;
+  color: var(--muted);
+}
+.figures dd {
+  margin: 0;
+  font-family: var(--latin);
+  font-size: clamp(1.55rem, 2.9vw, 2.35rem);
+  line-height: 1;
+  letter-spacing: 0.01em;
+  font-variant-numeric: tabular-nums;
+}
+.figures dd small {
+  margin-left: 5px;
+  font-family: var(--sans);
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  vertical-align: 0.45em;
+}
+
+/* ---------------------------------------------------------
+   章节骨架
+   --------------------------------------------------------- */
+.section { padding-top: clamp(76px, 9vw, 128px); }
+.section:last-of-type { padding-bottom: clamp(76px, 9vw, 128px); }
+
+.section__grid {
+  display: grid;
+  grid-template-columns: 320px minmax(0, 1fr);
+  gap: clamp(36px, 5vw, 88px);
+  align-items: start;
+}
+
+.section__side {
+  position: sticky;
+  top: 96px;
+  align-self: start;
+}
+.section__side h2 {
+  margin: 24px 0 18px;
+  font-size: clamp(1.45rem, 1.95vw, 1.75rem);
+  line-height: 1.55;
+  letter-spacing: 0.02em;
+}
+.nw { white-space: nowrap; }
+.section__lead {
+  max-width: 23em;
+  font-size: 12.5px;
+  line-height: 2.05;
+  color: var(--muted);
+  letter-spacing: 0.01em;
+  text-wrap: balance;
+}
+
+.prose { max-width: 38em; }
+.prose p {
+  font-size: 14.5px;
+  line-height: 2.1;
+  color: var(--ink-2);
+  text-wrap: pretty;
+}
+.prose p + p { margin-top: 20px; }
+.prose p:first-child {
+  font-size: 16px;
+  line-height: 2;
+  color: var(--ink);
+}
+
+/* 数据账目 */
+.ledger { margin-top: 52px; border-top: 1px solid var(--ink); }
+.ledger__title {
+  padding: 14px 0 0;
+  font-size: 10px;
+  letter-spacing: 0.24em;
+  color: var(--muted);
+}
+.ledger__list { margin: 14px 0 0; }
+.ledger__row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 13px 0;
+  border-bottom: 1px solid var(--line);
+}
+.ledger__row dt { font-size: 12.5px; color: var(--muted); letter-spacing: 0.06em; }
+.ledger__row dd {
+  margin: 0;
+  font-family: var(--latin);
+  font-size: 15.5px;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.ledger__row dd small {
+  margin-left: 4px;
+  font-family: var(--sans);
+  font-size: 10.5px;
+  color: var(--faint);
+}
+
+/* ---------------------------------------------------------
+   沿革
+   --------------------------------------------------------- */
+.timeline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--ink);
+}
+.timeline__row {
+  display: grid;
+  grid-template-columns: 116px minmax(0, 1fr);
+  gap: 26px;
+  padding: 21px 0;
+  border-bottom: 1px solid var(--line);
+}
+.timeline__year {
+  margin: 2px 0 0;
+  font-family: var(--latin);
+  font-size: 16.5px;
+  letter-spacing: 0.02em;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+  transition: color 0.3s var(--ease);
+}
+.timeline__row:hover .timeline__year { color: var(--accent); }
+.timeline__title {
+  margin: 0 0 5px;
+  font-family: var(--serif);
+  font-size: 15px;
+  letter-spacing: 0.03em;
+}
+.timeline__desc {
+  max-width: 52em;
+  font-size: 12.5px;
+  line-height: 2;
+  color: var(--muted);
+}
+
+/* ---------------------------------------------------------
+   办学特色
+   --------------------------------------------------------- */
+.features {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: clamp(28px, 4vw, 64px);
+}
+.feature {
+  padding: 24px 0 34px;
+  border-top: 1px solid var(--line-2);
+}
+.feature__num {
+  margin: 0 0 16px;
+  font-family: var(--latin);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  color: var(--accent);
+}
+.feature__title {
+  margin: 0 0 10px;
+  font-family: var(--serif);
+  font-size: 17px;
+  letter-spacing: 0.04em;
+}
+.feature__desc {
+  font-size: 12.5px;
+  line-height: 2;
+  color: var(--muted);
+  max-width: 30em;
+}
+
+/* ---------------------------------------------------------
+   理念横幅
+   --------------------------------------------------------- */
+.band {
+  margin-top: clamp(76px, 9vw, 128px);
+  padding: clamp(60px, 8vw, 104px) 0;
+  background: var(--ink);
+  color: var(--paper);
+  --accent: #C4684A;
+}
+.band__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+  gap: clamp(36px, 6vw, 88px);
+  align-items: end;
+}
+.band .eyebrow { color: rgba(244, 241, 234, 0.5); }
+.band__title {
+  margin: 24px 0 0;
+  font-size: clamp(1.7rem, 3.3vw, 2.7rem);
+  line-height: 1.6;
+  letter-spacing: 0.18em;
+  color: var(--paper);
+}
+.band__title span { display: block; }
+.band__meta {
+  border-left: 1px solid rgba(244, 241, 234, 0.18);
+  padding-left: clamp(20px, 3vw, 36px);
+}
+.band__meta dl { margin: 0; }
+.band__meta dt {
+  margin: 0 0 8px;
+  font-size: 10px;
+  letter-spacing: 0.24em;
+  color: rgba(244, 241, 234, 0.45);
+}
+.band__meta dd {
+  margin: 0 0 26px;
+  font-size: 12.5px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: rgba(244, 241, 234, 0.82);
+}
+.band__meta dl > div:last-child dd { margin-bottom: 0; }
+
+/* ---------------------------------------------------------
+   表格
+   --------------------------------------------------------- */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+.table caption { caption-side: top; text-align: left; }
+.table th {
+  padding: 0 0 12px;
+  border-bottom: 1px solid var(--ink);
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 0.22em;
+  color: var(--muted);
+}
+.table th:last-child { text-align: right; }
+.table td {
+  padding: 18px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 13.5px;
+  vertical-align: baseline;
+}
+.table tbody tr { transition: background 0.3s var(--ease); }
+.table tbody tr:hover { background: rgba(25, 23, 19, 0.028); }
+.table td:first-child {
+  width: 92px;
+  font-family: var(--latin);
+  font-size: 13px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+.table td:last-child { text-align: right; white-space: nowrap; }
+.table .name {
+  font-family: var(--serif);
+  font-size: 15px;
+  letter-spacing: 0.03em;
+  color: var(--ink);
+}
+.table .note {
+  display: block;
+  margin-top: 3px;
+  font-size: 11.5px;
+  line-height: 1.8;
+  color: var(--faint);
+}
+.table .qty {
+  font-family: var(--latin);
+  font-size: 14px;
+  color: var(--ink-2);
+  font-variant-numeric: tabular-nums;
+}
+.tag {
+  display: inline-block;
+  padding: 2px 7px 3px;
+  border: 1px solid var(--line-2);
+  font-size: 9.5px;
+  letter-spacing: 0.14em;
+  line-height: 1.5;
+  color: var(--ink-2);
+}
+.campus-table td:first-child { width: auto; font-family: var(--serif); font-size: 14.5px; color: var(--ink); }
+.campus-table td:nth-child(2) { color: var(--muted); font-size: 12px; line-height: 1.9; }
+.campus-table th:first-child { width: auto; }
+.campus-table td:last-child { text-align: right; }
+
+.small-note {
+  margin: 18px 0 0;
+  font-size: 11px;
+  line-height: 1.9;
+  letter-spacing: 0.02em;
+  color: var(--faint);
+}
+
+/* ---------------------------------------------------------
+   问答
+   --------------------------------------------------------- */
+.faq { border-top: 1px solid var(--ink); }
+.faq__item { border-bottom: 1px solid var(--line); }
+.faq__q {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  width: 100%;
+  padding: 21px 0;
+  border: 0;
+  background: none;
+  text-align: left;
+  font-family: var(--serif);
+  font-size: 15.5px;
+  letter-spacing: 0.03em;
+  line-height: 1.7;
+  color: var(--ink);
+  cursor: pointer;
+  transition: color 0.3s var(--ease);
+}
+.faq__q:hover { color: var(--accent); }
+.faq__num {
+  flex: none;
+  width: 26px;
+  font-family: var(--latin);
+  font-size: 10.5px;
+  letter-spacing: 0.1em;
+  color: var(--faint);
+}
+.faq__text { flex: 1; }
+.faq__icon {
+  position: relative;
+  flex: none;
+  width: 11px;
+  height: 11px;
+}
+.faq__icon::before,
+.faq__icon::after {
+  content: "";
+  position: absolute;
+  background: currentColor;
+  transition: transform 0.4s var(--ease), opacity 0.4s var(--ease);
+}
+.faq__icon::before { left: 0; top: 5px; width: 11px; height: 1px; }
+.faq__icon::after { left: 5px; top: 0; width: 1px; height: 11px; }
+.faq__item.is-open .faq__icon::after { transform: rotate(90deg); opacity: 0; }
+.faq__a {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.5s var(--ease);
+}
+.faq__a > div { overflow: hidden; }
+.faq__a p {
+  margin: 0 46px 24px;
+  max-width: 42em;
+  font-size: 12.5px;
+  line-height: 2.05;
+  color: var(--muted);
+}
+.faq__item.is-open .faq__a { grid-template-rows: 1fr; }
+.faq__more {
+  margin-top: 28px;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  color: var(--faint);
+}
+.faq__more a {
+  color: var(--ink-2);
+  border-bottom: 1px solid var(--line-2);
+  padding-bottom: 2px;
+  transition: color 0.3s, border-color 0.3s;
+}
+.faq__more a:hover { color: var(--accent); border-color: var(--accent); }
+
+/* ---------------------------------------------------------
+   学生入口
+   --------------------------------------------------------- */
+.panel {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  gap: clamp(32px, 5vw, 72px);
+  padding: clamp(26px, 4vw, 52px);
+  border: 1px solid var(--line-2);
+  background: var(--paper-3);
+}
+.panel__aside h3 {
+  margin: 0 0 14px;
+  font-size: clamp(1.2rem, 1.8vw, 1.5rem);
+  line-height: 1.55;
+}
+.panel__aside > p {
+  max-width: 24em;
+  font-size: 12.5px;
+  line-height: 2;
+  color: var(--muted);
+}
+.notes {
+  margin: 28px 0 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid var(--line);
+}
+.notes li {
+  position: relative;
+  padding: 12px 0 12px 18px;
+  border-bottom: 1px solid var(--line);
+  font-size: 11.5px;
+  line-height: 1.9;
+  color: var(--ink-2);
+}
+.notes li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 22px;
+  width: 7px;
+  height: 1px;
+  background: var(--accent);
+}
+
+.form { max-width: 560px; }
+.panel__main .form { max-width: none; }
+.form__row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+.field { margin-bottom: 20px; }
+.field label {
+  display: block;
+  margin-bottom: 3px;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  color: var(--muted);
+}
+.field input,
+.field textarea {
+  width: 100%;
+  padding: 8px 0 10px;
+  border: 0;
+  border-bottom: 1px solid var(--line-2);
+  border-radius: 0;
+  background: transparent;
+  font-family: var(--sans);
+  font-size: 14px;
+  color: var(--ink);
+  transition: border-color 0.3s var(--ease), box-shadow 0.3s var(--ease);
+  -webkit-appearance: none;
+  appearance: none;
+}
+.field input:focus,
+.field textarea:focus {
+  outline: none;
+  border-bottom-color: var(--accent);
+  box-shadow: 0 1px 0 0 var(--accent);
+}
+.field textarea {
+  min-height: 104px;
+  line-height: 1.85;
+  resize: vertical;
+}
+.field input::placeholder,
+.field textarea::placeholder { color: #B3AC9E; }
+
+.form__foot {
+  display: flex;
+  align-items: center;
+  gap: 18px 22px;
+  flex-wrap: wrap;
+  margin-top: 4px;
+}
+.btn-submit {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 13px 26px;
+  border: 1px solid var(--ink);
+  background: var(--ink);
+  color: var(--paper);
+  font-family: var(--sans);
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  cursor: pointer;
+  transition: background 0.35s var(--ease), color 0.35s var(--ease);
+}
+.btn-submit span { transition: transform 0.35s var(--ease); }
+.btn-submit:hover { background: transparent; color: var(--ink); }
+.btn-submit:hover span { transform: translateX(4px); }
+
+.form__status {
+  margin: 0;
+  min-height: 1.5em;
+  font-size: 11.5px;
+  line-height: 1.7;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+}
+.panel__main > .form__status { margin-top: 14px; }
+.form__status.is-error { color: var(--accent); }
+.form__status.is-done { color: var(--ink-2); }
+.form__hint {
+  margin-top: 18px;
+  font-size: 11px;
+  line-height: 1.9;
+  color: var(--faint);
+  letter-spacing: 0.02em;
+}
+
+.session {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+  padding: 24px 0 4px;
+  border-top: 1px solid var(--line-2);
+}
+.session__label {
+  margin: 0 0 10px;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  color: var(--muted);
+}
+.session__name {
+  margin: 0 0 6px;
+  font-family: var(--serif);
+  font-size: 1.5rem;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+}
+.session__meta {
+  margin: 0;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+.link-btn {
+  padding: 0 0 3px;
+  border: 0;
+  border-bottom: 1px solid var(--line-2);
+  background: none;
+  font-size: 11.5px;
+  letter-spacing: 0.12em;
+  color: var(--ink-2);
+  cursor: pointer;
+  transition: color 0.3s, border-color 0.3s;
+}
+.link-btn:hover { color: var(--accent); border-color: var(--accent); }
+
+/* ---------------------------------------------------------
+   联系
+   --------------------------------------------------------- */
+.info {
+  margin: 32px 0 0;
+  border-top: 1px solid var(--line);
+}
+.info > div {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 13px 0;
+  border-bottom: 1px solid var(--line);
+}
+.info dt {
+  flex: none;
+  font-size: 10px;
+  letter-spacing: 0.16em;
+  color: var(--muted);
+}
+.info dd {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.8;
+  text-align: right;
+  color: var(--ink-2);
+}
+.doc-note {
+  margin-top: 40px;
+  padding: 16px 20px;
+  border-left: 2px solid var(--accent);
+  background: rgba(156, 59, 36, 0.045);
+  font-size: 11.5px;
+  line-height: 2;
+  color: var(--ink-2);
+  letter-spacing: 0.02em;
+}
+
+/* ---------------------------------------------------------
+   页脚
+   --------------------------------------------------------- */
+.footer {
+  margin-top: 0;
+  padding: clamp(52px, 7vw, 80px) 0 26px;
+  background: var(--ink);
+  color: rgba(244, 241, 234, 0.7);
+}
+.footer__top {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+  gap: 48px;
+  padding-bottom: clamp(36px, 5vw, 60px);
+  border-bottom: 1px solid rgba(244, 241, 234, 0.16);
+}
+.footer__name {
+  margin: 0 0 10px;
+  font-family: var(--serif);
+  font-size: clamp(1.2rem, 2vw, 1.55rem);
+  letter-spacing: 0.1em;
+  line-height: 1.6;
+  color: var(--paper);
+}
+.footer__en {
+  margin: 0 0 24px;
+  max-width: 34em;
+  font-family: var(--latin);
+  font-size: 9.5px;
+  line-height: 1.9;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(244, 241, 234, 0.35);
+}
+.footer__motto {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 11.5px;
+  letter-spacing: 0.34em;
+  color: rgba(244, 241, 234, 0.5);
+}
+.footer__nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: start;
+  justify-content: flex-end;
+  gap: 12px 30px;
+}
+.footer__nav a {
+  font-size: 11.5px;
+  letter-spacing: 0.14em;
+  color: rgba(244, 241, 234, 0.6);
+  transition: color 0.3s var(--ease);
+}
+.footer__nav a:hover { color: var(--paper); }
+.footer__bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px 32px;
+  padding-top: 22px;
+  font-size: 10.5px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: rgba(244, 241, 234, 0.38);
+}
+.footer__bottom p { margin: 0; }
+
+/* ---------------------------------------------------------
+   阅读进度
+   --------------------------------------------------------- */
+.progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 120;
+  height: 1px;
+  pointer-events: none;
+}
+.progress i {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: var(--accent);
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+}
+
+/* ---------------------------------------------------------
+   入场
+   --------------------------------------------------------- */
+.js .reveal {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.85s var(--ease), transform 0.85s var(--ease);
+  transition-delay: var(--d, 0s);
+}
+.js .reveal.is-in { opacity: 1; transform: none; }
+
+/* ---------------------------------------------------------
+   响应式
+   --------------------------------------------------------- */
+@media (max-width: 980px) {
+  .nav { display: none; }
+  .menu-btn { display: inline-flex; }
+  .btn-entry { display: none; }
+  .mobile { display: block; }
+
+  .header__actions { margin-left: auto; }
+
+  .hero__inner { grid-template-columns: minmax(0, 1fr); }
+  .hero__aside { display: none; }
+
+  .section__grid { grid-template-columns: minmax(0, 1fr); gap: 34px; }
+  .section__side { position: static; top: auto; }
+  .section__side h2 { margin-top: 18px; }
+  .section__lead { max-width: 32em; }
+
+  .figures { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .figures__item:nth-child(3) { border-right: 0; }
+  .figures__item:nth-child(n + 4) {
+    border-top: 1px solid var(--line);
+    margin-top: -1px;
+  }
+
+  .band__grid { grid-template-columns: minmax(0, 1fr); gap: 36px; }
+  .band__meta { border-left: 0; padding-left: 0; border-top: 1px solid rgba(244, 241, 234, 0.18); padding-top: 26px; }
+
+  .panel { grid-template-columns: minmax(0, 1fr); }
+  .footer__top { grid-template-columns: minmax(0, 1fr); gap: 34px; }
+  .footer__nav { justify-content: flex-start; }
+}
+
+@media (max-width: 760px) {
+  .figures { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .figures__item { border-right: 1px solid var(--line); }
+  .figures__item:nth-child(3) { border-right: 1px solid var(--line); }
+  .figures__item:nth-child(2n) { border-right: 0; }
+  .figures__item:nth-child(-n + 3) { border-top: 0; margin-top: 0; }
+  .figures__item:nth-child(n + 3) { border-top: 1px solid var(--line); margin-top: -1px; }
+
+  .features { grid-template-columns: minmax(0, 1fr); }
+  .feature { padding-bottom: 28px; }
+
+  .form__row { grid-template-columns: minmax(0, 1fr); gap: 0; }
+  .panel { padding: 24px 22px; }
+
+  .section__lead { font-size: 13px; }
+  .timeline__desc { font-size: 13px; }
+  .feature__desc { font-size: 13px; }
+  .faq__a p { font-size: 13px; }
+  .panel__aside > p { font-size: 13px; }
+  .notes li { font-size: 12px; }
+  .table .note { font-size: 12px; }
+  .hero__lead { font-size: 15px; }
+
+  .faq__a p { margin: 0 0 22px 44px; }
+
+  .header__inner { height: 70px; gap: 16px; }
+  .header.is-scrolled .header__inner { height: 60px; }
+  .brand__sub { display: none; }
+  .crest { width: 32px; height: 32px; }
+
+  .footer { padding-bottom: 22px; }
+  .footer__bottom { flex-direction: column; }
+}
+
+@media (max-width: 600px) {
+  .brand { gap: 10px; }
+  .brand__name { font-size: 13.5px; letter-spacing: 0.08em; }
+  .crest { width: 30px; height: 30px; }
+  .header__actions { gap: 12px; }
+  .user { gap: 0; }
+  .user__sep, .user__out { display: none; }
+  .hero__title { letter-spacing: 0.04em; }
+  .hero__motto .text { letter-spacing: 0.26em; }
+
+  .table thead { display: none; }
+  .table,
+  .table tbody,
+  .table tr,
+  .table td { display: block; }
+
+  .table tr {
+    display: grid;
+    grid-template-columns: 52px minmax(0, 1fr) auto;
+    gap: 4px 14px;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .table td { padding: 0; border: 0; }
+  .table td:first-child { grid-column: 1; font-size: 12px; }
+  .table td:nth-child(2) { grid-column: 2; }
+  .table td:last-child { grid-column: 3; grid-row: 1; align-self: center; justify-self: end; }
+
+  .campus-table tr { grid-template-columns: minmax(0, 1fr) auto; }
+  .campus-table td:first-child { grid-column: 1; grid-row: 1; }
+  .campus-table td:nth-child(2) { grid-column: 1; grid-row: 2; }
+  .campus-table td:last-child { grid-column: 2; grid-row: 1 / span 2; align-self: center; }
+
+  .timeline__row { grid-template-columns: 82px minmax(0, 1fr); gap: 16px; }
+  .timeline__year { font-size: 14.5px; }
+
+  .faq__q { font-size: 14.5px; gap: 12px; }
+  .faq__a p { margin-left: 0; }
+  .faq__num { width: 22px; }
+
+  .hero__actions { gap: 20px; flex-wrap: wrap; }
+  .hero__motto { gap: 12px; }
+
+  .ledger__row { gap: 16px; }
+  .field input, .field textarea { font-size: 15px; }
+}
+
+/* ---------------------------------------------------------
+   减弱动效与打印
+   --------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+  .js .reveal { opacity: 1; transform: none; }
+}
+
+@media print {
+  .header, .progress, .mobile, .menu-btn, .footer__nav, .hero__aside, .faq__more { display: none !important; }
+  body { background: #fff; color: #000; }
+  .hero { padding-top: 0; }
+  .section { padding-top: 28px; break-inside: avoid; }
+  .band, .footer { background: #fff; color: #000; }
+  .band__meta dd, .footer__en, .footer__motto { color: #444; }
+  .band__title { color: #000; }
+  a { text-decoration: none; }
+}
+</style>
+<noscript>
+<style>
+  .header__inner { height: auto; padding: 12px 0; flex-wrap: wrap; }
+  .nav { display: flex !important; flex-wrap: wrap; gap: 10px 20px; }
+  .menu-btn, .mobile { display: none !important; }
+  .faq__a { grid-template-rows: 1fr !important; }
+  .faq__q { cursor: default; }
+  .faq__icon { display: none; }
+</style>
+</noscript>
+</head>
+<body id="top">
+<a class="skip" href="#main">跳到主要内容</a>
+
+<div class="progress" aria-hidden="true"><i id="progressBar"></i></div>
+
+<!-- 页眉 -->
+<header class="header" id="header">
+  <div class="wrap header__inner">
+    <a class="brand" href="#top" aria-label="返回页面顶部">
+      <span class="crest" aria-hidden="true"><img src="logo.jpg" alt=""></span>
+      <span class="brand__text">
+        <span class="brand__name">实验高级中学附属学校</span>
+        <span class="brand__sub">济宁市兖州区 · 九年一贯制公立学校</span>
+      </span>
+    </a>
+
+    <nav class="nav" aria-label="主要导航">
+      <a href="#overview" data-spy>概况</a>
+      <a href="#history" data-spy>沿革</a>
+      <a href="#character" data-spy>特色</a>
+      <a href="#honors" data-spy>荣誉</a>
+      <a href="#campus" data-spy>校园</a>
+      <a href="#faq" data-spy>问答</a>
+      <a href="#contact" data-spy>联系</a>
+    </nav>
+
+    <div class="header__actions">
+      <button class="btn-entry" id="entryBtn" type="button">学生入口</button>
+      <div class="user" id="userChip" hidden>
+        <span class="user__name" id="userChipName">—</span>
+        <span class="user__sep" aria-hidden="true"></span>
+        <button class="user__out" id="userChipOut" type="button">退出</button>
+      </div>
+      <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="mobileMenu">
+        <span>目录</span>
+        <span class="menu-btn__icon" aria-hidden="true"><i></i><i></i></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- 移动端目录 -->
+<div class="mobile" id="mobileMenu">
+  <nav class="mobile__nav" aria-label="移动端导航">
+    <a href="#overview"><span>学校概况</span><span class="mobile__num">01</span></a>
+    <a href="#history"><span>发展沿革</span><span class="mobile__num">02</span></a>
+    <a href="#character"><span>办学特色</span><span class="mobile__num">03</span></a>
+    <a href="#honors"><span>荣誉记录</span><span class="mobile__num">04</span></a>
+    <a href="#campus"><span>校园与设施</span><span class="mobile__num">05</span></a>
+    <a href="#faq"><span>常见问题</span><span class="mobile__num">06</span></a>
+    <a href="#students"><span>学生入口</span><span class="mobile__num">07</span></a>
+    <a href="#contact"><span>联系我们</span><span class="mobile__num">08</span></a>
+  </nav>
+  <p class="mobile__foot">明德尚实　笃行致远</p>
+</div>
+
+<main id="main">
+
+  <!-- 首屏 -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="wrap">
+      <div class="hero__inner">
+        <div class="hero__main">
+          <p class="eyebrow reveal">济宁市兖州区 · 九年一贯制公立学校</p>
+
+          <h1 class="hero__title reveal" id="hero-title" style="--d:.06s">
+            <span>实验高级中学</span>
+            <span>附属学校</span>
+          </h1>
+
+          <p class="hero__motto reveal" style="--d:.12s">
+            <span class="label">校训</span>
+            <span class="text">明德尚实　笃行致远</span>
+          </p>
+
+          <p class="hero__lead reveal" style="--d:.18s">
+            学校由兖州区委、区政府投资兴建，2021&nbsp;年 9&nbsp;月正式启用。校园<span class="nw">占地</span>近 60&nbsp;亩，现有教职工 208&nbsp;人、<span class="nw">在校学生</span> 4304&nbsp;人。
+          </p>
+
+          <div class="hero__actions reveal" style="--d:.24s">
+            <a class="btn-primary" href="#overview">了解学校<span aria-hidden="true">→</span></a>
+            <a class="link-quiet" href="#students">学生入口</a>
+          </div>
+        </div>
+
+        <aside class="hero__aside" aria-hidden="true">
+          <p>文化立校　质量兴校　特色强校</p>
+        </aside>
+      </div>
+
+      <dl class="figures reveal" style="--d:.3s">
+        <div class="figures__item"><dt>创办</dt><dd>2017<small>年</small></dd></div>
+        <div class="figures__item"><dt>占地</dt><dd>60<small>亩</small></dd></div>
+        <div class="figures__item"><dt>建筑面积</dt><dd>31,900<small>㎡</small></dd></div>
+        <div class="figures__item"><dt>教职工</dt><dd>208<small>人</small></dd></div>
+        <div class="figures__item"><dt>在校学生</dt><dd>4,304<small>人</small></dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- 01 学校概况 -->
+  <section class="section" id="overview" aria-labelledby="overview-title">
+    <div class="wrap">
+      <div class="section__grid">
+        <div class="section__side reveal">
+          <p class="eyebrow"><span class="eyebrow__num">01</span>学校概况</p>
+          <h2 id="overview-title">为解决<span class="nw">「大班额」</span>而建的学校</h2>
+          <p class="section__lead">2017&nbsp;年 12&nbsp;月批复设立，2021&nbsp;年 9&nbsp;月启用。校园<span class="nw">占地</span>近 60&nbsp;亩，是一所按<span class="nw">「花园式」</span>标准建设的<span class="nw">九年一贯制</span>公立学校。</p>
+        </div>
+
+        <div class="section__main reveal" style="--d:.08s">
+          <div class="prose">
+            <p>学校是兖州区委、区政府根据上级关于解决城镇中小学大班额问题的文件精神投资兴建的一所九年一贯制公立学校，也是完善学校布点、改善基础设施条件的重点工程。建校之初，学校即按区域内优质、高效衔接的精品学校定位进行规划与建设。</p>
+            <p>校园占地近 60&nbsp;亩，建筑面积 31900&nbsp;平方米，绿化面积 13695&nbsp;平方米，运动场 12000&nbsp;平方米。教学楼、实验楼、运动场与生活区依次展开，布局合理，环境安静，「花园式」校园是许多人走进校门后的第一印象。</p>
+            <p>学校现有教职工 208&nbsp;人，其中高级教师 34&nbsp;人；在校学生 4304&nbsp;人，覆盖小学与初中两个学段。</p>
+          </div>
+
+          <div class="ledger">
+            <p class="ledger__title">校园数据</p>
+            <dl class="ledger__list">
+              <div class="ledger__row"><dt>占地面积</dt><dd>60<small>亩</small></dd></div>
+              <div class="ledger__row"><dt>建筑面积</dt><dd>31,900<small>㎡</small></dd></div>
+              <div class="ledger__row"><dt>绿化面积</dt><dd>13,695<small>㎡</small></dd></div>
+              <div class="ledger__row"><dt>运动场</dt><dd>12,000<small>㎡</small></dd></div>
+              <div class="ledger__row"><dt>教职工</dt><dd>208<small>人</small></dd></div>
+              <div class="ledger__row"><dt>高级教师</dt><dd>34<small>人</small></dd></div>
+              <div class="ledger__row"><dt>在校学生</dt><dd>4,304<small>人</small></dd></div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 发展沿革 -->
+  <section class="section" id="history" aria-labelledby="history-title">
+    <div class="wrap">
+      <div class="section__grid">
+        <div class="section__side reveal">
+          <p class="eyebrow"><span class="eyebrow__num">02</span>发展沿革</p>
+          <h2 id="history-title">从批复到<span class="nw">今天</span></h2>
+          <p class="section__lead">从一纸批复到第一间教室，七年里有七个节点。</p>
+        </div>
+
+        <div class="section__main reveal" style="--d:.08s">
+          <ol class="timeline">
+            <li class="timeline__row">
+              <p class="timeline__year">2017.12</p>
+              <div>
+                <h3 class="timeline__title">批复设立</h3>
+                <p class="timeline__desc">兖州区人民政府批复成立实验高级中学附属学校，学校建设正式提上日程。</p>
+              </div>
+            </li>
+            <li class="timeline__row">
+              <p class="timeline__year">2018</p>
+              <div>
+                <h3 class="timeline__title">开工建设</h3>
+                <p class="timeline__desc">学校正式动工，占地近 60&nbsp;亩，规划建设教学楼、实验楼及配套设施，总建筑面积三万余平方米。</p>
+              </div>
+            </li>
+            <li class="timeline__row">
+              <p class="timeline__year">2021.09</p>
+              <div>
+                <h3 class="timeline__title">正式启用</h3>
+                <p class="timeline__desc">学校启用并招收首批学生，配备多媒体教室、300&nbsp;米塑胶田径场及 20&nbsp;余个高标准数字实验室。</p>
+              </div>
+            </li>
+            <li class="timeline__row">
+              <p class="timeline__year">2022</p>
+              <div>
+                <h3 class="timeline__title">绿色校园与党建示范</h3>
+                <p class="timeline__desc">获评山东省绿色校园、济宁市中小学党建工作示范学校，办学品质获得省级认可。</p>
+              </div>
+            </li>
+            <li class="timeline__row">
+              <p class="timeline__year">2023</p>
+              <div>
+                <h3 class="timeline__title">人工智能科普基地</h3>
+                <p class="timeline__desc">获评山东省人工智能科普示范基地、济宁市教育信息化先进单位，智慧校园建设成效显著。</p>
+              </div>
+            </li>
+            <li class="timeline__row">
+              <p class="timeline__year">2024</p>
+              <div>
+                <h3 class="timeline__title">星级食堂</h3>
+                <p class="timeline__desc">获评 2024&nbsp;年度山东省中小学星级食堂，学校综合实力持续提升。</p>
+              </div>
+            </li>
+            <li class="timeline__row">
+              <p class="timeline__year">2025</p>
+              <div>
+                <h3 class="timeline__title">足球特色学校</h3>
+                <p class="timeline__desc">获评 2025&nbsp;年度全国青少年足球特色学校，体育课程与校队建设进入新的阶段。</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 03 办学特色 -->
+  <section class="section" id="character" aria-labelledby="character-title">
+    <div class="wrap">
+      <div class="section__grid">
+        <div class="section__side reveal">
+          <p class="eyebrow"><span class="eyebrow__num">03</span>办学特色</p>
+          <h2 id="character-title">资源集中的四个方向</h2>
+          <p class="section__lead">智慧校园、实验教学、体育与艺术、德育与心理——<span class="nw">学校的设施与课程</span>，大多落在这四件事上。</p>
+        </div>
+
+        <div class="section__main reveal" style="--d:.08s">
+          <div class="features">
+            <article class="feature">
+              <p class="feature__num">01</p>
+              <h3 class="feature__title">智慧校园</h3>
+              <p class="feature__desc">20&nbsp;余个高标准数字实验室与多媒体教室，2023&nbsp;年获评山东省人工智能科普示范基地。</p>
+            </article>
+            <article class="feature">
+              <p class="feature__num">02</p>
+              <h3 class="feature__title">实验教学</h3>
+              <p class="feature__desc">实验楼按学科分区，理化生实验课进入常态课表，数字实验室承担探究性与拓展课程。</p>
+            </article>
+            <article class="feature">
+              <p class="feature__num">03</p>
+              <h3 class="feature__title">体育与艺术</h3>
+              <p class="feature__desc">300&nbsp;米塑胶田径场与 12000&nbsp;平方米运动场，2025&nbsp;年获评全国青少年足球特色学校。</p>
+            </article>
+            <article class="feature">
+              <p class="feature__num">04</p>
+              <h3 class="feature__title">德育与心理</h3>
+              <p class="feature__desc">设心理活动中心与学生书吧，日常管理坚持「以德育人、厚爱严管」，把关注放到每一个学生身上。</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 办学理念 -->
+  <section class="band" aria-labelledby="band-title">
+    <div class="wrap band__grid">
+      <div class="band__main">
+        <p class="eyebrow">办学理念</p>
+        <h2 class="band__title" id="band-title">
+          <span>文化立校</span>
+          <span>质量兴校</span>
+          <span>特色强校</span>
+        </h2>
+      </div>
+      <div class="band__meta">
+        <dl>
+          <div>
+            <dt>学段</dt>
+            <dd>小学 · 初中（九年一贯制）</dd>
+          </div>
+          <div>
+            <dt>管理理念</dt>
+            <dd>依法治校　民主管理　以德育人　厚爱严管</dd>
+          </div>
+          <div>
+            <dt>校风</dt>
+            <dd>求实求真　至善至美</dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- 04 荣誉记录 -->
+  <section class="section" id="honors" aria-labelledby="honors-title">
+    <div class="wrap">
+      <div class="section__grid">
+        <div class="section__side reveal">
+          <p class="eyebrow"><span class="eyebrow__num">04</span>荣誉记录</p>
+          <h2 id="honors-title">六项认定</h2>
+          <p class="section__lead">2022&nbsp;年以来共获六项认定：<span class="nw">三项省级</span>、<span class="nw">两项市级</span>、<span class="nw">一项国家级</span>。</p>
+        </div>
+
+        <div class="section__main reveal" style="--d:.08s">
+          <table class="table">
+            <caption class="sr-only">学校荣誉记录</caption>
+            <thead>
+              <tr><th scope="col">年份</th><th scope="col">荣誉</th><th scope="col">级别</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2022</td>
+                <td><span class="name">山东省绿色校园</span></td>
+                <td><span class="tag">省级</span></td>
+              </tr>
+              <tr>
+                <td>2022</td>
+                <td><span class="name">济宁市中小学党建工作示范学校</span></td>
+                <td><span class="tag">市级</span></td>
+              </tr>
+              <tr>
+                <td>2023</td>
+                <td><span class="name">山东省人工智能科普示范基地</span></td>
+                <td><span class="tag">省级</span></td>
+              </tr>
+              <tr>
+                <td>2023</td>
+                <td><span class="name">济宁市教育信息化先进单位</span></td>
+                <td><span class="tag">市级</span></td>
+              </tr>
+              <tr>
+                <td>2024</td>
+                <td><span class="name">山东省中小学星级食堂</span><span class="note">2024&nbsp;年度</span></td>
+                <td><span class="tag">省级</span></td>
+              </tr>
+              <tr>
+                <td>2025</td>
+                <td><span class="name">全国青少年足球特色学校</span><span class="note">2025&nbsp;年度</span></td>
+                <td><span class="tag">国家级</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="small-note">以上荣誉整理自学校公开信息，如有出入以学校官方发布为准。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 05 校园与设施 -->
+  <section class="section" id="campus" aria-labelledby="campus-title">
+    <div class="wrap">
+      <div class="section__grid">
+        <div class="section__side reveal">
+          <p class="eyebrow"><span class="eyebrow__num">05</span>校园与设施</p>
+          <h2 id="campus-title">60&nbsp;亩校园里的空间</h2>
+          <p class="section__lead">数字实验室、田径场、心理活动中心与<span class="nw">书吧</span>，构成了日常校园生活的主要场景。</p>
+        </div>
+
+        <div class="section__main reveal" style="--d:.08s">
+          <table class="table campus-table">
+            <caption class="sr-only">校园设施</caption>
+            <thead>
+              <tr><th scope="col">设施</th><th scope="col">用途</th><th scope="col">数量</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>数字实验室</td>
+                <td>理化生实验、人工智能与创客课程</td>
+                <td><span class="qty">20&nbsp;余间</span></td>
+              </tr>
+              <tr>
+                <td>塑胶田径场</td>
+                <td>300&nbsp;米环形跑道，体育课与校运会</td>
+                <td><span class="qty">1&nbsp;座</span></td>
+              </tr>
+              <tr>
+                <td>室外运动场</td>
+                <td>篮球、排球与足球场地</td>
+                <td><span class="qty">12,000 ㎡</span></td>
+              </tr>
+              <tr>
+                <td>心理活动中心</td>
+                <td>个体咨询、团体辅导与心理课程</td>
+                <td><span class="qty">1&nbsp;处</span></td>
+              </tr>
+              <tr>
+                <td>学生书吧</td>
+                <td>开放式阅读与自习</td>
+                <td><span class="qty">1&nbsp;处</span></td>
+              </tr>
+              <tr>
+                <td>食堂</td>
+                <td>三餐供应，2024&nbsp;年度省级星级食堂</td>
+                <td><span class="qty">1&nbsp;处</span></td>
+              </tr>
+              <tr>
+                <td>绿化庭院</td>
+                <td>校园绿化与休憩空间</td>
+                <td><span class="qty">13,695 ㎡</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="small-note">设施信息整理自学校公开介绍。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 06 常见问题 -->
+  <section class="section" id="faq" aria-labelledby="faq-title">
+    <div class="wrap">
+      <div class="section__grid">
+        <div class="section__side reveal">
+          <p class="eyebrow"><span class="eyebrow__num">06</span>常见问题</p>
+          <h2 id="faq-title">被问得最多的六件事</h2>
+          <p class="section__lead">关于学校，最常被问到的几个问题。</p>
+        </div>
+
+        <div class="section__main reveal" style="--d:.08s">
+          <div class="faq">
+            <div class="faq__item">
+              <button class="faq__q" type="button" aria-expanded="false" aria-controls="faq-a1" id="faq-q1">
+                <span class="faq__num">01</span>
+                <span class="faq__text">学校是什么时候设立的？</span>
+                <span class="faq__icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq__a" id="faq-a1" role="region" aria-labelledby="faq-q1">
+                <div><p>2017&nbsp;年 12&nbsp;月批复成立，2018&nbsp;年开工建设，2021&nbsp;年 9&nbsp;月正式启用。</p></div>
+              </div>
+            </div>
+
+            <div class="faq__item">
+              <button class="faq__q" type="button" aria-expanded="false" aria-controls="faq-a2" id="faq-q2">
+                <span class="faq__num">02</span>
+                <span class="faq__text">学校是公办还是民办？</span>
+                <span class="faq__icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq__a" id="faq-a2" role="region" aria-labelledby="faq-q2">
+                <div><p>公办。学校由兖州区委、区政府投资兴建，是一所九年一贯制公立学校。</p></div>
+              </div>
+            </div>
+
+            <div class="faq__item">
+              <button class="faq__q" type="button" aria-expanded="false" aria-controls="faq-a3" id="faq-q3">
+                <span class="faq__num">03</span>
+                <span class="faq__text">学校规模有多大？</span>
+                <span class="faq__icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq__a" id="faq-a3" role="region" aria-labelledby="faq-q3">
+                <div><p>占地近 60&nbsp;亩，建筑面积 31900&nbsp;平方米；教职工 208&nbsp;人（含高级教师 34&nbsp;人），在校学生 4304&nbsp;人。</p></div>
+              </div>
+            </div>
+
+            <div class="faq__item">
+              <button class="faq__q" type="button" aria-expanded="false" aria-controls="faq-a4" id="faq-q4">
+                <span class="faq__num">04</span>
+                <span class="faq__text">校园里有哪些设施？</span>
+                <span class="faq__icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq__a" id="faq-a4" role="region" aria-labelledby="faq-q4">
+                <div><p>多媒体教室、300&nbsp;米塑胶田径场、20&nbsp;余个高标准数字实验室，以及心理活动中心、学生书吧等特色功能室。</p></div>
+              </div>
+            </div>
+
+            <div class="faq__item">
+              <button class="faq__q" type="button" aria-expanded="false" aria-controls="faq-a5" id="faq-q5">
+                <span class="faq__num">05</span>
+                <span class="faq__text">学校获得过哪些荣誉？</span>
+                <span class="faq__icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq__a" id="faq-a5" role="region" aria-labelledby="faq-q5">
+                <div><p>山东省绿色校园、山东省人工智能科普示范基地、济宁市中小学党建工作示范学校、济宁市教育信息化先进单位、2024&nbsp;年度山东省中小学星级食堂、2025&nbsp;年度全国青少年足球特色学校。</p></div>
+              </div>
+            </div>
+
+            <div class="faq__item">
+              <button class="faq__q" type="button" aria-expanded="false" aria-controls="faq-a6" id="faq-q6">
+                <span class="faq__num">06</span>
+                <span class="faq__text">这是学校官方网站吗？</span>
+                <span class="faq__icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq__a" id="faq-a6" role="region" aria-labelledby="faq-q6">
+                <div><p>不是。本页由苏铂洋个人制作，用于整理与展示学校的公开信息；内容仅供参考，请以学校官方发布为准。</p></div>
+              </div>
+            </div>
+          </div>
+          <p class="faq__more">其他问题，可以在页面末尾<a href="#contact">留言</a>。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 07 学生入口 -->
+  <section class="section" id="students" aria-labelledby="students-title">
+    <div class="wrap">
+      <div class="section__grid">
+        <div class="section__side reveal">
+          <p class="eyebrow"><span class="eyebrow__num">07</span>学生入口</p>
+          <h2 id="students-title">登记之后，<span class="nw">页眉记住你</span></h2>
+          <p class="section__lead">填写学号、姓名与班级后，页面会把这次登录保存在<span class="nw">本机浏览器</span>，并在页眉显示你的信息。</p>
+        </div>
+
+        <div class="section__main reveal" style="--d:.08s">
+          <div class="panel">
+            <div class="panel__aside">
+              <h3>一次登记，下次打开仍在</h3>
+              <p>这是页面提供的本地登录演示，不连接学校系统，也不用于任何实际业务。</p>
+              <ul class="notes">
+                <li>信息只保存在本机浏览器，不会上传。</li>
+                <li>换设备或清除浏览器数据后，需要重新登记。</li>
+                <li>点击「退出登录」可随时清除记录。</li>
+              </ul>
+            </div>
+
+            <div class="panel__main">
+              <form class="form" id="loginForm" autocomplete="off">
+                <div class="form__row">
+                  <div class="field">
+                    <label for="sid">学号</label>
+                    <input id="sid" name="sid" type="text" inputmode="numeric" maxlength="24" placeholder="例如 20250101" required>
+                  </div>
+                  <div class="field">
+                    <label for="sname">姓名</label>
+                    <input id="sname" name="sname" type="text" maxlength="12" placeholder="请输入姓名" required>
+                  </div>
+                </div>
+                <div class="field">
+                  <label for="sclass">班级</label>
+                  <input id="sclass" name="sclass" type="text" maxlength="20" placeholder="例如 八年级三班" required>
+                </div>
+                <div class="form__foot">
+                  <button class="btn-submit" type="submit">登记并登录<span aria-hidden="true">→</span></button>
+                </div>
+                <p class="form__hint">演示功能：不连接学校系统，仅作页面展示。</p>
+              </form>
+
+              <div class="session" id="session" hidden>
+                <div>
+                  <p class="session__label">已登记</p>
+                  <p class="session__name" id="sessionName">—</p>
+                  <p class="session__meta" id="sessionMeta">—</p>
+                </div>
+                <button class="link-btn" id="logoutBtn" type="button">退出登录</button>
+              </div>
+
+              <p class="form__status" id="loginStatus" role="status" aria-live="polite"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 08 联系我们 -->
+  <section class="section" id="contact" aria-labelledby="contact-title">
+    <div class="wrap">
+      <div class="section__grid">
+        <div class="section__side reveal">
+          <p class="eyebrow"><span class="eyebrow__num">08</span>联系我们</p>
+          <h2 id="contact-title">留言，<span class="nw">以及关于本页</span></h2>
+          <p class="section__lead">本页为静态页面，留言保存在你自己的浏览器里；校址与学校性质见下。</p>
+
+          <dl class="info">
+            <div><dt>校址</dt><dd>山东省济宁市兖州区</dd></div>
+            <div><dt>性质</dt><dd>公办学校</dd></div>
+            <div><dt>学段</dt><dd>小学 · 初中</dd></div>
+            <div><dt>本页</dt><dd>个人制作，非官方网站</dd></div>
+          </dl>
+        </div>
+
+        <div class="section__main reveal" style="--d:.08s">
+          <form class="form" id="contactForm">
+            <div class="form__row">
+              <div class="field">
+                <label for="cname">姓名</label>
+                <input id="cname" name="cname" type="text" maxlength="20" placeholder="请输入姓名" required>
+              </div>
+              <div class="field">
+                <label for="cmail">邮箱</label>
+                <input id="cmail" name="cmail" type="email" maxlength="60" placeholder="name@example.com" required>
+              </div>
+            </div>
+            <div class="field">
+              <label for="csubject">主题</label>
+              <input id="csubject" name="csubject" type="text" maxlength="40" placeholder="想聊的话题" required>
+            </div>
+            <div class="field">
+              <label for="cmsg">留言</label>
+              <textarea id="cmsg" name="cmsg" rows="4" maxlength="600" placeholder="想说的话…" required></textarea>
+            </div>
+            <div class="form__foot">
+              <button class="btn-submit" type="submit">提交留言<span aria-hidden="true">→</span></button>
+              <p class="form__status" id="contactStatus" role="status" aria-live="polite"></p>
+            </div>
+            <p class="form__hint">本页为静态页面：留言会保存在本机浏览器，不会发送至学校。</p>
+          </form>
+
+          <p class="doc-note">本页由苏铂洋个人制作，与学校官方无关。文中的数据与荣誉整理自公开资料，如有出入，请以学校官方发布为准。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- 页脚 -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <p class="footer__name">济宁市兖州区<br>实验高级中学附属学校</p>
+        <p class="footer__en">Affiliated School of Jining Yanzhou Experimental High School</p>
+        <p class="footer__motto">明德尚实　笃行致远</p>
+      </div>
+      <nav class="footer__nav" aria-label="页脚导航">
+        <a href="#overview">学校概况</a>
+        <a href="#history">发展沿革</a>
+        <a href="#character">办学特色</a>
+        <a href="#honors">荣誉记录</a>
+        <a href="#campus">校园与设施</a>
+        <a href="#faq">常见问题</a>
+        <a href="#students">学生入口</a>
+        <a href="#contact">联系我们</a>
+      </nav>
+    </div>
+    <div class="footer__bottom">
+      <p>本页非学校官方网站，由苏铂洋个人制作；内容仅供参考。</p>
+      <p>© <span id="year">2026</span> 实验高级中学附属学校 · 页面制作 苏铂洋</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function () {
+  'use strict';
+
+  var doc = document;
+  var html = doc.documentElement;
+
+  /* 入场：优先初始化，即使后续脚本出错也不影响可见性 */
+  var revealEls = Array.prototype.slice.call(doc.querySelectorAll('.reveal'));
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  if ('IntersectionObserver' in window && !reduce) {
+    var revealObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-in');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.06, rootMargin: '0px 0px -6% 0px' });
+
+    revealEls.forEach(function (el) { revealObserver.observe(el); });
+  } else {
+    revealEls.forEach(function (el) { el.classList.add('is-in'); });
+  }
+
+  /* 页眉与阅读进度 */
+  var header = doc.getElementById('header');
+  var bar = doc.getElementById('progressBar');
+  var ticking = false;
+
+  function updateScroll() {
+    var y = window.pageYOffset || html.scrollTop;
+    header.classList.toggle('is-scrolled', y > 20);
+
+    var max = html.scrollHeight - window.innerHeight;
+    bar.style.transform = 'scaleX(' + (max > 0 ? Math.min(y / max, 1) : 0) + ')';
+    ticking = false;
+  }
+
+  window.addEventListener('scroll', function () {
+    if (ticking) return;
+    ticking = true;
+    window.requestAnimationFrame(updateScroll);
+  }, { passive: true });
+  updateScroll();
+
+  /* 移动端目录 */
+  var menuBtn = doc.getElementById('menuBtn');
+  var menu = doc.getElementById('mobileMenu');
+
+  function closeMenu() {
+    menu.classList.remove('is-open');
+    menuBtn.setAttribute('aria-expanded', 'false');
+    html.classList.remove('is-locked');
+  }
+
+  menuBtn.addEventListener('click', function () {
+    var open = !menu.classList.contains('is-open');
+    menu.classList.toggle('is-open', open);
+    menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    html.classList.toggle('is-locked', open);
+  });
+
+  menu.addEventListener('click', function (event) {
+    if (event.target.closest('a')) closeMenu();
+  });
+
+  doc.addEventListener('keydown', function (event) {
+    if (event.key === 'Escape') closeMenu();
+  });
+
+  window.addEventListener('resize', function () {
+    if (window.innerWidth > 980) closeMenu();
+  });
+
+  /* 导航高亮 */
+  var spyLinks = Array.prototype.slice.call(doc.querySelectorAll('[data-spy]'));
+  var spyMap = {};
+  spyLinks.forEach(function (link) {
+    spyMap[link.getAttribute('href').slice(1)] = link;
+  });
+
+  if ('IntersectionObserver' in window) {
+    var spyObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        var active = spyMap[entry.target.id];
+        if (!active) return;
+        spyLinks.forEach(function (link) { link.removeAttribute('aria-current'); });
+        active.setAttribute('aria-current', 'page');
+      });
+    }, { rootMargin: '-42% 0px -52% 0px', threshold: 0 });
+
+    Object.keys(spyMap).forEach(function (id) {
+      var section = doc.getElementById(id);
+      if (section) spyObserver.observe(section);
+    });
+  }
+
+  /* 问答 */
+  Array.prototype.forEach.call(doc.querySelectorAll('.faq__q'), function (btn) {
+    btn.addEventListener('click', function () {
+      var item = btn.closest('.faq__item');
+      var open = item.classList.toggle('is-open');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  });
+
+  /* 本机存储 */
+  var STUDENT_KEY = 'sya.student';
+  var LEGACY_KEY = 'loggedInUser';
+  var MESSAGE_KEY = 'sya.messages';
+
+  function readJSON(key) {
+    try {
+      var raw = window.localStorage.getItem(key);
+      return raw ? JSON.parse(raw) : null;
+    } catch (error) {
+      return null;
+    }
+  }
+
+  function writeJSON(key, value) {
+    try {
+      window.localStorage.setItem(key, JSON.stringify(value));
+      return true;
+    } catch (error) {
+      return false;
+    }
+  }
+
+  function removeKey(key) {
+    try { window.localStorage.removeItem(key); } catch (error) {}
+  }
+
+  function readStudent() {
+    var saved = readJSON(STUDENT_KEY);
+    if (saved && saved.name) return saved;
+
+    var legacy = readJSON(LEGACY_KEY);
+    if (legacy && legacy.name) {
+      var migrated = {
+        id: legacy.id || '',
+        name: legacy.name,
+        cls: legacy['class'] || legacy.cls || '',
+        at: legacy.loginTime || ''
+      };
+      writeJSON(STUDENT_KEY, migrated);
+      removeKey(LEGACY_KEY);
+      return migrated;
+    }
+    return null;
+  }
+
+  /* 学生登录 */
+  var entryBtn = doc.getElementById('entryBtn');
+  var userChip = doc.getElementById('userChip');
+  var userChipName = doc.getElementById('userChipName');
+  var userChipOut = doc.getElementById('userChipOut');
+  var loginForm = doc.getElementById('loginForm');
+  var session = doc.getElementById('session');
+  var sessionName = doc.getElementById('sessionName');
+  var sessionMeta = doc.getElementById('sessionMeta');
+  var loginStatus = doc.getElementById('loginStatus');
+
+  function setStatus(el, message, state) {
+    if (!el) return;
+    el.textContent = message || '';
+    el.classList.remove('is-error', 'is-done');
+    if (state) el.classList.add('is-' + state);
+  }
+
+  function renderStudent(student) {
+    var logged = Boolean(student);
+    entryBtn.hidden = logged;
+    userChip.hidden = !logged;
+    loginForm.hidden = logged;
+    session.hidden = !logged;
+
+    if (logged) {
+      userChipName.textContent = student.name;
+      sessionName.textContent = student.name;
+      sessionMeta.textContent = '学号 ' + student.id + (student.cls ? ' · ' + student.cls : '');
+    }
+  }
+
+  function logout() {
+    removeKey(STUDENT_KEY);
+    removeKey(LEGACY_KEY);
+    renderStudent(null);
+    setStatus(loginStatus, '已退出，本机记录已清除。', 'done');
+  }
+
+  entryBtn.addEventListener('click', function () {
+    doc.getElementById('students').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    var sid = doc.getElementById('sid');
+    if (sid && !loginForm.hidden) {
+      window.setTimeout(function () { sid.focus({ preventScroll: true }); }, 420);
+    }
+  });
+
+  userChipOut.addEventListener('click', logout);
+
+  loginForm.addEventListener('submit', function (event) {
+    event.preventDefault();
+    var id = doc.getElementById('sid').value.trim();
+    var name = doc.getElementById('sname').value.trim();
+    var cls = doc.getElementById('sclass').value.trim();
+
+    if (!id || !name || !cls) {
+      setStatus(loginStatus, '学号、姓名与班级都需要填写。', 'error');
+      return;
+    }
+
+    var student = {
+      id: id,
+      name: name,
+      cls: cls,
+      at: new Date().toISOString()
+    };
+
+    var saved = writeJSON(STUDENT_KEY, student);
+    removeKey(LEGACY_KEY);
+    renderStudent(student);
+    loginForm.reset();
+    setStatus(loginStatus, saved
+      ? '欢迎，' + name + '。这次登录已记录在本机浏览器。'
+      : '欢迎，' + name + '。（浏览器禁止本地存储，本次登录仅在当前页面有效。）', 'done');
+  });
+
+  /* 留言 */
+  var contactForm = doc.getElementById('contactForm');
+  var contactStatus = doc.getElementById('contactStatus');
+
+  contactForm.addEventListener('submit', function (event) {
+    event.preventDefault();
+
+    var message = {
+      name: doc.getElementById('cname').value.trim(),
+      email: doc.getElementById('cmail').value.trim(),
+      subject: doc.getElementById('csubject').value.trim(),
+      body: doc.getElementById('cmsg').value.trim(),
+      at: new Date().toISOString()
+    };
+
+    var list = readJSON(MESSAGE_KEY);
+    if (!Array.isArray(list)) list = [];
+    list.push(message);
+    if (list.length > 20) list = list.slice(-20);
+
+    var saved = writeJSON(MESSAGE_KEY, list);
+    contactForm.reset();
+    setStatus(contactStatus, saved
+      ? '留言已保存在本机浏览器。谢谢你的留言。'
+      : '浏览器禁止本地存储，留言未能保存。', saved ? 'done' : 'error');
+  });
+
+  /* 年份 */
+  var yearEl = doc.getElementById('year');
+  if (yearEl) yearEl.textContent = String(new Date().getFullYear());
+
+  /* 校徽缺失时不显示空白框 */
+  var crestImg = doc.querySelector('.crest img');
+  if (crestImg) {
+    var hideCrest = function () {
+      var box = crestImg.parentNode;
+      if (box) box.style.display = 'none';
+    };
+    crestImg.addEventListener('error', hideCrest);
+    if (crestImg.complete && crestImg.naturalWidth === 0) hideCrest();
+  }
+
+  /* 初次渲染 */
+  renderStudent(readStudent());
+})();
+</script>
+</body>
+</html>
